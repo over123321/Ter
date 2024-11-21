@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>調酒詳細資訊</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .cocktail-details {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        h3 {
+            margin-top: 20px;
+            color: #007bff;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .info {
+            background-color: #e7f3ff;
+            border-left: 6px solid #007bff;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 15px;
+            margin: 20px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>調酒詳情</h1>
+    </header>
+    <div class="cocktail-details">
+        <h1>中國藍 (China Blue)</h1>
+        <img src="459894606c1bdadc4b44502fb981ebf3" alt="中國藍圖片">
+        <h3>成分:</h3>
+        <ul>
+            <li>伏特加</li>
+            <li>藍橙酒</li>
+            <li>檸檬汁</li>
+        </ul>
+        <h3>製作方法:</h3>
+        <p>將所有成分放入攪拌器中，加入冰塊，搖勻後倒入冰過的杯子中即可。</p>
+
+        <div class="info">
+            <h3>其他資訊:</h3>
+            <p><strong>酸甜:</strong> 甜</p>
+            <p><strong>濃度:</strong> 低</p>
+            <p><strong>酒感:</strong> 沒有酒感</p>
+            <p><strong>氣泡:</strong> 要</p>
+        </div>
+
+        <button onclick="window.location.href='cocktails.html'">返回調酒列表</button>
+    </div>
+</body>
+</html>
